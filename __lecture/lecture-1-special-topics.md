@@ -38,6 +38,8 @@ The 12-byte ObjectId value consists of
 ### `ObjectId().getTimestamp()`
 
 ```js
+const { MongoCLient, ObjectId } = require('mongodb')
+
 ObjectId('5e98febee9b6840a209fe251').getTimestamp();
 
 // 2020-04-17T00:56:30.000Z
@@ -53,13 +55,13 @@ There are many ways of going about this.
 
 ---
 
-### Option 1 - Ask on signup
+### Option 1 - Ask on signup *
 
 <img src='./assets/user-type-select.gif' />
 
 ---
 
-### Option 2 - Provide a passKey of some sort
+### Option 2 - Provide a passKey of some sort *
 
 import passkeyExample from './assets/passkey-example.png';
 

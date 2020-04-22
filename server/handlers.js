@@ -81,5 +81,16 @@ const bookSeat = async (req, res) => {
 
 };
 
+const removeBooking = async (req, res) => {
+  // delete users entry
+  // update seat to isBooked: false
+};
+
+const updateUser = async (req, res) => {
+  // determine if send in new name or new email, filter out neither
+  // update users entry accordingly
+};
+
+
 
 module.exports = { getSeats, bookSeat };
